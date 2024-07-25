@@ -15,7 +15,7 @@ jobs:
     - name: Sync fork
       uses: tgymnich/fork-sync@v1.3      
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}        
+        token: ${{ secrets.workflow_padavan_token }}        
         owner: shvchk  # Имя владельца оригинального репозитория
         repo: padavan-builder-workflow  # Имя оригинального репозитория        
         head: main  # Ветка в оригинальном репозитории, с которой синхронизироваться
